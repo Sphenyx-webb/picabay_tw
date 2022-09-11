@@ -7,17 +7,22 @@ module.exports = {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        lg: '2rem',
+        xl: '2rem',
+        // '2xl': '3rem',
       },
     },
+
+    fontFamily: {
+      sans: ['Montserrat', 'sans-serif'],
+    },
+    
     extend: {
       colors: {
         'main': '#00B612',
         'main-100': '#58DF66',
         'main-200': '#19db2c',
-        'main3100': '#098D16',
+        'main-300': '#098D16',
         'main-400': '#035916',
         'main-500': '#002709',
         'brand-dark': '#2D2D2D',
