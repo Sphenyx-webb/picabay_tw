@@ -7,8 +7,8 @@ module.exports = {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        lg: '2rem',
-        xl: '2rem',
+        lg: '3rem',
+        xl: '4.5rem',
         // '2xl': '3rem',
       },
     },
@@ -32,6 +32,12 @@ module.exports = {
         'brand-gray-200': '#999A9C',
         'alt': '#FFF5E5'
       },
+      height: {
+        '100': '30rem',
+      },
+      width: {
+        '100': '65rem'
+      },
       zIndex: {
         'infinite': '99999',
       },
@@ -39,7 +45,7 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
       },
       boxShadow: {
-        'custom': '0 0 10px 0 rgba(26, 26, 26, 0.12)',
+        'custom': '0 0 10px 0 rgba(26, 26, 26, 0.1)',
       },
     },
   },
